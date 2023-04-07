@@ -1,0 +1,127 @@
+body{
+    margin: 0;
+    font-family: ModernSansLight, serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: ModernSansLight;
+    src: url(../fonts/ModernSans-Light.otf);
+}
+
+header{
+    flex-direction: column;
+    height: 80vh;
+    display: flex;
+    background-image: url("../img/vuurtoren.JPG");
+    background-size: cover;
+    background-position: top;
+    justify-content: space-between;
+}
+
+nav{
+    margin: auto;
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header a, #buttons a{
+    text-decoration: none;
+    color: white;
+    background: midnightblue;
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    font-size: 2em;
+}
+
+main a{
+    text-decoration: none;
+    color: midnightblue;
+}
+
+#header-text{
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    color: midnightblue;
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+
+.row-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.column-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-content, .image-content{
+    height: 50vh;
+    width: 50%;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.image-content{
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.text-content{
+    justify-content: center;
+    align-items: center;
+}
+
+.text-content h3, p{
+    margin: 10px 5vw 10px 5vw;
+    font-size: 1.5em;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+}
+
+.lightgray{
+    background-color: lightgray;
+}
+
+#web-design-jaap-image{
+    background-image: url("../img/logo-web-design-jaap.png");
+}#raveshop-image{
+    background-image: url("../img/raveshop.jpg");
+}#stringtuner-image{
+    background-image: url("../img/stringtuner.png");
+}#lekkerrr-image{
+    background-image: url("../img/lekkerrr.png");
+}#reisvisie-image{
+    background-image: url("../img/reisvisie.png");
+}
+
+ footer{
+     background-color: black;
+     color: white;
+     height: 10vh;
+     display: flex;
+ }
+
+ footer p{
+     margin: auto;
+     font-weight: bold;
+ }
+
+ #contact-section h3{
+    font-size: 2em;
+ }
+
+ #contact-section{
+     justify-content: space-evenly;
+     align-items: center;
+     height: 30vh;
+ }
